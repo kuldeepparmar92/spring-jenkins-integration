@@ -13,7 +13,7 @@ class SpringJenkinsIntegrationApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsIntegrationApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	
 		logger.info("executing the test case");
 		assertEquals(true, true);
 	}
