@@ -14,7 +14,8 @@ class SpringJenkinsIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("executing test case");
+		logger.info("executing test case.....");
+		logger.info("second statement of test case execution.....");
 		assertEquals(true, true);
 	}
 
